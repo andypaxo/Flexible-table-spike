@@ -14,12 +14,15 @@
 		A1847C8E150D13B200EB44B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847C8D150D13B200EB44B8 /* main.m */; };
 		A1847C92150D13B200EB44B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847C91150D13B200EB44B8 /* AppDelegate.m */; };
 		A1847C95150D13B200EB44B8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1847C93150D13B200EB44B8 /* MainStoryboard.storyboard */; };
-		A1847C98150D13B200EB44B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847C97150D13B200EB44B8 /* ViewController.m */; };
 		A1847CA0150D13B200EB44B8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1847C9F150D13B200EB44B8 /* SenTestingKit.framework */; };
 		A1847CA1150D13B200EB44B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1847C81150D13B200EB44B8 /* UIKit.framework */; };
 		A1847CA2150D13B200EB44B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1847C83150D13B200EB44B8 /* Foundation.framework */; };
 		A1847CAA150D13B200EB44B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1847CA8150D13B200EB44B8 /* InfoPlist.strings */; };
 		A1847CAD150D13B300EB44B8 /* FlexibleTableSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847CAC150D13B300EB44B8 /* FlexibleTableSpikeTests.m */; };
+		A1847CB8150D13D900EB44B8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847CB7150D13D900EB44B8 /* MainViewController.m */; };
+		A1847CBB150D15B100EB44B8 /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847CBA150D15B100EB44B8 /* QuestionCell.m */; };
+		A1847CBE150D15C900EB44B8 /* Inspection.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847CBD150D15C900EB44B8 /* Inspection.m */; };
+		A1847CC1150D164900EB44B8 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = A1847CC0150D164900EB44B8 /* Question.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,27 @@
 		A1847C81150D13B200EB44B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1847C83150D13B200EB44B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1847C85150D13B200EB44B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A1847C89150D13B200EB44B8 /* FlexibleTableSpike-Info.plist */ = {isa = PBXFileReference; path = "FlexibleTableSpike-Info.plist"; sourceTree = "<group>"; };
+		A1847C89150D13B200EB44B8 /* FlexibleTableSpike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleTableSpike-Info.plist"; sourceTree = "<group>"; };
 		A1847C8B150D13B200EB44B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1847C8D150D13B200EB44B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1847C8F150D13B200EB44B8 /* FlexibleTableSpike-Prefix.pch */ = {isa = PBXFileReference; path = "FlexibleTableSpike-Prefix.pch"; sourceTree = "<group>"; };
-		A1847C90150D13B200EB44B8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1847C8F150D13B200EB44B8 /* FlexibleTableSpike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlexibleTableSpike-Prefix.pch"; sourceTree = "<group>"; };
+		A1847C90150D13B200EB44B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1847C91150D13B200EB44B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A1847C94150D13B200EB44B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A1847C96150D13B200EB44B8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		A1847C97150D13B200EB44B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1847C9E150D13B200EB44B8 /* FlexibleTableSpikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexibleTableSpikeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1847C9F150D13B200EB44B8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A1847CA7150D13B200EB44B8 /* FlexibleTableSpikeTests-Info.plist */ = {isa = PBXFileReference; path = "FlexibleTableSpikeTests-Info.plist"; sourceTree = "<group>"; };
+		A1847CA7150D13B200EB44B8 /* FlexibleTableSpikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlexibleTableSpikeTests-Info.plist"; sourceTree = "<group>"; };
 		A1847CA9150D13B200EB44B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1847CAB150D13B300EB44B8 /* FlexibleTableSpikeTests.h */ = {isa = PBXFileReference; path = FlexibleTableSpikeTests.h; sourceTree = "<group>"; };
+		A1847CAB150D13B300EB44B8 /* FlexibleTableSpikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexibleTableSpikeTests.h; sourceTree = "<group>"; };
 		A1847CAC150D13B300EB44B8 /* FlexibleTableSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleTableSpikeTests.m; sourceTree = "<group>"; };
+		A1847CB6150D13D900EB44B8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A1847CB7150D13D900EB44B8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A1847CB9150D15B100EB44B8 /* QuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionCell.h; sourceTree = "<group>"; };
+		A1847CBA150D15B100EB44B8 /* QuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCell.m; sourceTree = "<group>"; };
+		A1847CBC150D15C900EB44B8 /* Inspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inspection.h; sourceTree = "<group>"; };
+		A1847CBD150D15C900EB44B8 /* Inspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inspection.m; sourceTree = "<group>"; };
+		A1847CBF150D164900EB44B8 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		A1847CC0150D164900EB44B8 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A1847C87150D13B200EB44B8 /* FlexibleTableSpike */,
+				A1847C88150D13B200EB44B8 /* Supporting Files */,
 				A1847CA5150D13B200EB44B8 /* FlexibleTableSpikeTests */,
 				A1847C80150D13B200EB44B8 /* Frameworks */,
 				A1847C7E150D13B200EB44B8 /* Products */,
@@ -114,9 +124,14 @@
 				A1847C90150D13B200EB44B8 /* AppDelegate.h */,
 				A1847C91150D13B200EB44B8 /* AppDelegate.m */,
 				A1847C93150D13B200EB44B8 /* MainStoryboard.storyboard */,
-				A1847C96150D13B200EB44B8 /* ViewController.h */,
-				A1847C97150D13B200EB44B8 /* ViewController.m */,
-				A1847C88150D13B200EB44B8 /* Supporting Files */,
+				A1847CB6150D13D900EB44B8 /* MainViewController.h */,
+				A1847CB7150D13D900EB44B8 /* MainViewController.m */,
+				A1847CB9150D15B100EB44B8 /* QuestionCell.h */,
+				A1847CBA150D15B100EB44B8 /* QuestionCell.m */,
+				A1847CBC150D15C900EB44B8 /* Inspection.h */,
+				A1847CBD150D15C900EB44B8 /* Inspection.m */,
+				A1847CBF150D164900EB44B8 /* Question.h */,
+				A1847CC0150D164900EB44B8 /* Question.m */,
 			);
 			path = FlexibleTableSpike;
 			sourceTree = "<group>";
@@ -130,6 +145,7 @@
 				A1847C8F150D13B200EB44B8 /* FlexibleTableSpike-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = FlexibleTableSpike;
 			sourceTree = "<group>";
 		};
 		A1847CA5150D13B200EB44B8 /* FlexibleTableSpikeTests */ = {
@@ -259,7 +275,10 @@
 			files = (
 				A1847C8E150D13B200EB44B8 /* main.m in Sources */,
 				A1847C92150D13B200EB44B8 /* AppDelegate.m in Sources */,
-				A1847C98150D13B200EB44B8 /* ViewController.m in Sources */,
+				A1847CB8150D13D900EB44B8 /* MainViewController.m in Sources */,
+				A1847CBB150D15B100EB44B8 /* QuestionCell.m in Sources */,
+				A1847CBE150D15C900EB44B8 /* Inspection.m in Sources */,
+				A1847CC1150D164900EB44B8 /* Question.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
