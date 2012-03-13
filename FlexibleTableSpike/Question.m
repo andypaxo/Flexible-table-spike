@@ -10,7 +10,7 @@
 
 @implementation Question
 
-@synthesize text, hasNotes;
+@synthesize text, hasNotes, numberOfAttachments;
 
 + (Question *)questionWithText:(NSString *)questionText {
     Question* result = [Question new];

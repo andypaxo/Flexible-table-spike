@@ -12,6 +12,7 @@
 
 @property NSString* text;
 @property BOOL hasNotes;
+@property int numberOfAttachments;
 
 + (Question*) questionWithText:(NSString*) questionText;
 

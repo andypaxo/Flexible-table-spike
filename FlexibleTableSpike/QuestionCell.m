@@ -38,7 +38,6 @@ static int __editBoxHeight = 90;
         [self addSubview:_attachButton];
     }
     
-    NSLog(@"%@", _attachButton.titleLabel);
     return _attachButton;
 }
 
