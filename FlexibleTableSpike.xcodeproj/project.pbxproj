@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11B6E88150EE48300CAA40A /* BorderedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A11B6E87150EE48300CAA40A /* BorderedTextView.m */; };
 		A1847C82150D13B200EB44B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1847C81150D13B200EB44B8 /* UIKit.framework */; };
 		A1847C84150D13B200EB44B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1847C83150D13B200EB44B8 /* Foundation.framework */; };
 		A1847C86150D13B200EB44B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1847C85150D13B200EB44B8 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A11B6E86150EE48300CAA40A /* BorderedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderedTextView.h; sourceTree = "<group>"; };
+		A11B6E87150EE48300CAA40A /* BorderedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderedTextView.m; sourceTree = "<group>"; };
 		A1847C7D150D13B200EB44B8 /* FlexibleTableSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleTableSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1847C81150D13B200EB44B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1847C83150D13B200EB44B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 				A1847CBD150D15C900EB44B8 /* Inspection.m */,
 				A1847CBF150D164900EB44B8 /* Question.h */,
 				A1847CC0150D164900EB44B8 /* Question.m */,
+				A11B6E86150EE48300CAA40A /* BorderedTextView.h */,
+				A11B6E87150EE48300CAA40A /* BorderedTextView.m */,
 			);
 			path = FlexibleTableSpike;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				A1847CBB150D15B100EB44B8 /* QuestionCell.m in Sources */,
 				A1847CBE150D15C900EB44B8 /* Inspection.m in Sources */,
 				A1847CC1150D164900EB44B8 /* Question.m in Sources */,
+				A11B6E88150EE48300CAA40A /* BorderedTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +456,7 @@
 				A1847CB2150D13B300EB44B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1847CB3150D13B300EB44B8 /* Build configuration list for PBXNativeTarget "FlexibleTableSpikeTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				A1847CB5150D13B300EB44B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

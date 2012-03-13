@@ -11,7 +11,9 @@
 
 @interface QuestionCell : UITableViewCell
 
-@property (nonatomic) BOOL isExpanded;
+//@property (nonatomic) BOOL isExpanded;
 @property (nonatomic) Question* question;
+
++ (CGFloat) heightRequiredBy: (Question*) question;
 
 @end

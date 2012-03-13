@@ -80,7 +80,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {    
     Question* question = [model.questions objectAtIndex:indexPath.row];
-    return question.hasNotes ? 90 : 52;
+    return [QuestionCell heightRequiredBy:question];
 }
 
 @end
