@@ -64,22 +64,29 @@
 
 #pragma mark - Table view data source
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return model.questions.count / 5;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return [NSString stringWithFormat: @"Section %d", section + 1];
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return model.questions.count;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    QuestionCell* cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    cell.question = [model.questions objectAtIndex:indexPath.row];
-    
+    QuestionCell* cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];   
+    cell.question = [model.questions objectAtIndex:indexPath.section * 5 + indexPath.row];    
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {    
-    Question* question = [model.questions objectAtIndex:indexPath.row];
+    Question* question = [model.questions objectAtIndex:indexPath.section * 5 + indexPath.row];
     return [QuestionCell heightRequiredBy:question];
 }
 
