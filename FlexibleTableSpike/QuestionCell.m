@@ -25,7 +25,6 @@ static int __editBoxHeight = 90;
 - (BorderedTextView *)notesView {
     if (!_notesView) {
         _notesView = [BorderedTextView new];
-        _notesView.text = @"Your notes...";
         [self addSubview:_notesView];
     }
     return _notesView;
